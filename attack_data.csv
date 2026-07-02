@@ -5,7 +5,7 @@ import pandas as pd
 os.makedirs('dataset', exist_ok=True)
 
 # بيانات تجريبية (packet_count, bytes, duration, label)
-# label: 0 = Passive (التنصت)، 1 = Active (حجب الخدمة DoS)
+# label: 0 = Passive ()، 1 = Active ( DoS)
 data = {
     'packet_count': [5, 12, 4, 1500, 2300, 6, 1800, 3, 2100, 8],
     'bytes_transferred': [400, 1100, 350, 95000, 140000, 500, 115000, 240, 130000, 600],
