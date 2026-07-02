@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 
-# إنشاء المجلد إذا لم يكن موجوداً
 os.makedirs('dataset', exist_ok=True)
 
 # بيانات تجريبية (packet_count, bytes, duration, label)
